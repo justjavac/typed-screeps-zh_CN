@@ -1,0 +1,36 @@
+{
+  "name": "@screepscn/types",
+  "version": "1.0.0",
+  "description": "Screeps 的 TypeScript 类型定义文件",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "fmt": "deno fmt src",
+    "build": "cat src/* > index.d.ts",
+    "pub": "npm run build && npm publish --access public"
+  },
+  "homepage": "https://github.com/justjavac/typed-screeps-zh_CN#readme",
+  "keywords": [
+    "Screeps",
+    "API",
+    "Typescript",
+    "Autocomplete"
+  ],
+  "author": {
+    "name": "迷渡",
+    "email": "justjavac@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/justjavac/typed-screeps-zh_CN/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justjavac/typed-screeps-zh_CN.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}

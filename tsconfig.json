@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+      "module": "esnext",
+      "target": "es2017",
+      "sourceMap": false,
+      "declaration": true,
+      "strict": true,
+      "alwaysStrict": true,
+      "noEmit": true,
+      "newLine": "LF",
+      "removeComments": false
+  },
+  "include": ["./src/**/*.d.ts"],
+  "exclude": ["node_modules", "/index.d.ts"]
+}
